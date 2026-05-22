@@ -9,13 +9,13 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: 4ec69cb
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: badjeff
-      revision: zmk-0.4
+      revision: 77635ba
     - name: prospector-zmk-module
       remote: carrefinho
-      revision: feat/new-status-screens
+      revision: 67425b7
   self:
     path: config
